@@ -1,12 +1,12 @@
 class Professor{
     String name;
     String Specialization;
-    double contact_number;
+    String contact_number;
     int salary;
     public Professor(){
         name = "vijay";
         Specialization = "Java";
-        contact_number = 603506666;
+        contact_number = "603506666";
         salary = 40000;
     }
         }

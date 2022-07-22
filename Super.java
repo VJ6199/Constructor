@@ -8,12 +8,12 @@ class Car extends mercedes{
     String color = "white";
     String model = "E350";
     void vijay(String speed){
-        System.out.println(speed);
-        System.out.println(manufacture_year);
-        System.out.println(milage);
-        System.out.println(this.color);
-        System.out.println(super.speed);
-        System.out.println(model);
+        System.out.println("super speed:"+speed);
+        System.out.println("manufacture_year:"+manufacture_year);
+        System.out.println("milage:"+milage);
+        System.out.println("color:"+this.color);
+        System.out.println("speed:"+super.speed);
+        System.out.println("model:"+model);
     }
 }
 public class Super {
